@@ -200,7 +200,7 @@ html{
 <!-- about section ends -->
 
 <!-- skills section starts  -->
-
+<div class='onesignal-customlink-container'></div>
 <section class="skills">
 
     <h1 class="heading"> <span>my</span> skills </h1>
@@ -274,7 +274,15 @@ html{
     </div>
     </div>
     <h1 class="heading"> <span>Here</span> it  <span>Ends</span></h1>
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c9c896c5-c58e-4320-98cc-ada799549d53",
+    });
+  });
+</script>
 
 </body>
 </html>
